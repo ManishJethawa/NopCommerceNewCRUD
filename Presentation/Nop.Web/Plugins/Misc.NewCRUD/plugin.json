@@ -1,0 +1,11 @@
+﻿{
+  "Group": "CRUD",
+  "FriendlyName": "New Custom CRUD",
+  "SystemName": "Misc.NewCRUD",
+  "Version": "1.00",
+  "SupportedVersions": [ "4.50" ],
+  "Author": "Manish Jethawa",
+  "DisplayOrder": 1,
+  "FileName": "XcellenceIT.Plugin.Misc.NewCRUD.dll",
+  "Description": "This plugin allows you to change Nothing.. !!"
+}
