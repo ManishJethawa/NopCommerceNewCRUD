@@ -75,5 +75,22 @@ namespace XcellenceIT.Plugin.Misc.NewCRUD.Factories
 
             return model;
         }
+
+        public virtual async Task<NewCRUDNavigationModel> PrepareCustomerNavigationModelAsync(int selectedTabId = 0)
+        {
+            var model = new NewCRUDNavigationModel();
+
+            model.NewCRUDNavigationItems.Add(new NewCRUDNavigationItemModel
+            {
+                RouteName = "NewCRUD",
+                Title = "MyCategory",
+                Tab = (int)NewCRUDNavigationEnum.MYCATAGORY,
+                ItemClass = "my-category"
+            });
+
+            model.SelectedTab = selectedTabId;
+
+            return model;
+        }
     }
 }

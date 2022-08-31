@@ -11,5 +11,7 @@ namespace XcellenceIT.Plugin.Misc.NewCRUD.Factories
         Task<NewCRUDListModel> PreapareNewCRUDListModelAsync(NewCRUDSearchModel searchModel);
 
         Task<NewCRUDModel> PrepareNewCRUDModelAsync(NewCRUDModel newCRUDModel, NewCRUDDomain newCRUDDomain);
+       
+        Task<NewCRUDNavigationModel> PrepareCustomerNavigationModelAsync(int selectedTabId = 0);
     }
 }

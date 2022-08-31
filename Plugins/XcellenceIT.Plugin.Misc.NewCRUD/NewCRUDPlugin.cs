@@ -45,7 +45,7 @@ namespace XcellenceIT.Plugin.Misc.NewCRUD
                 ["Plugins.Misc.NewCRUD.Title"] = "XcellenceIT",
                 ["Plugins.Misc.NewCRUD.MainMenu"] = "CRUD",
                 ["Plugins.Misc.NewCRUD.MainMenu2"] = "CRUD Opration",
-                ["Plugins.Misc.NewCRUD.Configure"] = "Setting",
+                ["Plugins.Misc.NewCRUD.Configure"] = "Configure",
                 ["Plugins.Misc.NewCRUD.List"] = "Users List",
                 ["Plugins.Misc.NewCRUD.Add.User"] = "Add New User",
                 ["Plugins.Misc.NewCRUD.NewCRUD"] = "NewCRUD",
